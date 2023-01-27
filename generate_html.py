@@ -38,4 +38,5 @@ for fap in fap_data:
 </div>
     """
 
-print(final_html)
+with open("faps.html", "w+") as f:
+    f.write(final_html)
